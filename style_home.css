@@ -1,0 +1,229 @@
+:root{
+    --my_red: #B11313;
+    --my_blue: #114c92;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*/////////////header/////////////*/
+
+header section{
+    background-color: var(--my_red);
+    padding: 16px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+}
+header .mrq{
+    margin-left: 100px;
+}
+header .mrq img{
+    padding-left: 20px;
+}
+header section .mrq img:nth-child(2){
+    padding-bottom: 15px;
+}
+header section ul{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+header .nav_head ul li{
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+header .nav_head a{
+   color: white;
+}
+
+/*/////////////main/////////////*/
+
+/*main part1*/
+main #acceuil{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    background-image: url(./Assets/Illustration/img1.png);
+}
+.nav_acceuil{
+    position: relative;
+    padding: 15%;
+    top: 7%;
+}
+main #acceuil h1{
+    color: white;
+    font-family: url('./Assets/Typo-FarFromHomecoming.woff2');
+    font-size: 4rem;
+    padding-bottom: 10%;
+
+}
+a.ac{
+    padding: 1.5% 2%;
+    margin-right: 25px;
+    border-width: 1.5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+a.ac:link , a.ac:visited{
+    color: white;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+}
+a.ac:hover{
+    color: var(--my_red);
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+main #acceuil p{
+    padding: 4% 0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans Regular';
+}
+
+/*main part2*/
+
+main {
+    background-color: var(--my_red);
+}
+#parker .intro h1{
+    padding: 0 15%;
+    color: white;
+    font-size: 32px;
+}
+#parker .intro p{
+    padding: 0 15%;
+    color: white;
+    font-size: 20px;
+}
+
+main div.stat{
+    padding-top: 1%;
+    background-color: var(--my_red);
+    
+}
+main #parker .fich{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: var(--my_red);
+}
+main #parker #spd1{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Assets/Illustration/img2.png);
+}
+main #parker #spd2{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Assets/Illustration/img3.png);
+}
+main #parker #spd3{
+
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Assets/Illustration/img4.png);
+}
+main #parker div.stat_sec{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    align-items: center;
+    align-content: space-between;
+    background-color: var(--my_red);
+ 
+}
+main #parker div.stat_sec p{
+    width: 250px;
+    height: 250px;
+    font-size: 12px;
+    margin-top: 50px;
+    text-align: justify;
+    color: white;
+    background-color: var(--my_red);
+}
+main #parker div.stat_sec a{
+
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5% 5%;
+    color: var(--my_red);
+    border-color: white;
+    border-width: 1.5px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+/*main part3*/
+
+main #become{
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-color: var(--my_blue);
+}
+
+.spd_img_left{
+
+    width: 500px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Assets/Illustration/img5.png);
+}
+
+.formm{
+    position: relative;
+    top: 50px;
+    float: right;
+    padding-right: 15%;
+    width: 700px;
+    height: 100%;
+}
+#become .formm form input{
+    padding: 1% 0;
+    padding-right: 15%;
+    margin-left: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+/*/////////////footer/////////////*/
+footer section{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
